@@ -1,0 +1,17 @@
+@media (max-width: 380px) {
+  .only-desktop {
+    display: none;
+  }
+
+  .isabela-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  #profile {
+    flex-direction: column;
+  }
+
+  #info {
+  }
+}
