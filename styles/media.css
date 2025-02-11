@@ -1,6 +1,10 @@
-@media (max-width: 380px) {
+@media (max-width: 480px) {
   .only-desktop {
     display: none;
+  }
+
+  nav ul {
+    gap: 8px;
   }
 
   .isabela-pic {
@@ -12,6 +16,44 @@
     flex-direction: column;
   }
 
-  #info {
+  #profile > div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  #about {
+    /* background-color: red; */
+    margin-left: 0px;
+    margin-top: 16px;
+    display: grid;
+    max-width: 296px;
+  }
+
+  #topics {
+    margin-top: 0;
+    li:nth-child(1) {
+      margin: 0;
+    }
+  }
+
+  main img {
+    width: 328px;
+    height: 328px;
+    object-fit: cover;
+  }
+
+footer {
+    flex-direction: column;
+  }
+
+  footer span:nth-child(1) {
+    margin-right: 0; 
+    text-align: center;
+  }
+
+  .footer-bottom {
+    margin-block: 16px;
+    justify-content: space-around;
   }
 }
